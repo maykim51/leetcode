@@ -1,7 +1,7 @@
+# -*- coding: utf-8 -*-
 '''
 Leetcode# 1. Easy
 Amazon Frequency #1
-
 
 풀이방법을 비교해보고 시작했어야 함. 예상보다 완전탐색보다 해시맵이 더 빠르다!
 
@@ -22,5 +22,6 @@ class Solution:
             idx_map[nums[i]] = i
         return []
 
-sol = Solution()
-print(sol.twoSum([1,3,4,2],6))
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.twoSum([1,3,4,2],6))
