@@ -1,3 +1,7 @@
+'''
+https://tech.kakao.com/2020/04/01/2019-internship-test/
+https://programmers.co.kr/learn/courses/30/lessons/64061
+'''
 def solution(board, moves):
     answer = 0
     if not moves:

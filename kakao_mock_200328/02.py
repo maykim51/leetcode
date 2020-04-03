@@ -1,7 +1,9 @@
 '''
-slice 전처리 필요 {}
+https://programmers.co.kr/learn/courses/30/lessons/64065
+https://tech.kakao.com/2020/04/01/2019-internship-test/
+slice - 전처리 {}
 길이순으로 나열한 후 m.sort(key=len)
-answer []에 여집합만 추가
+answer []에 현재 ^answer, 즉 차집합만 추가
 '''
 def solution(s):
     answer = []

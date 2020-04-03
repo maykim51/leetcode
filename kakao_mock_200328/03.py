@@ -1,3 +1,9 @@
+'''
+https://programmers.co.kr/learn/courses/30/lessons/64064
+https://tech.kakao.com/2020/04/01/2019-internship-test/
+어려웠던 부분: 각 bannedId 별로 이미 뽑은 id와 중복 없이 만들 수 있는 경우의 수를 게산하는 것(재귀 함수)이 어려웠음
+해결책: 
+'''
 def solution(user_id, banned_id):
     answer = 1
     sets = []
